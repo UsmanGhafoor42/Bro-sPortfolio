@@ -2,7 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef } from "react";
 import type { Swiper as SwiperType } from "swiper";
@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 interface SlideItem {
   id: number;
-  image: string;
+  image: string | StaticImageData;
   title?: string;
 }
 

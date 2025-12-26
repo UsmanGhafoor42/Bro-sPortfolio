@@ -1,5 +1,9 @@
 import Badge from "@/app/components/ui/badge";
 import SliderComponent from "./slider";
+import licorice4good from "@/app/assets/images/licorice4good.com.png";
+import southernsweetandsour from "@/app/assets/images/southernsweetandsour.com_.png";
+import licoriceaffiliate from "@/app/assets/images/licoriceaffiliate.licorice4good.com_.png";
+import megajumpparktickets from "@/app/assets/images/megajumpparktickets.eu_.png";
 
 const WorkComponent = () => {
   return (
@@ -15,22 +19,22 @@ const WorkComponent = () => {
         slides={[
           {
             id: 1,
-            image: require("@/app/assets/images/licorice4good.com.png"),
+            image: licorice4good,
             title: "Licorice4Good.com",
           },
           {
             id: 2,
-            image: require("@app/assets/images/southernsweetandsour.com_.png"),
+            image: southernsweetandsour,
             title: "SouthernSweetAndSour.com",
           },
           {
             id: 3,
-            image: require("@app/assets/images/licoriceaffiliate.licorice4good.com_.png"),
+            image: licoriceaffiliate,
             title: "licoriceaffiliate.licorice4good.com",
           },
           {
             id: 4,
-            image: require("@app/assets/images/megajumpparktickets.com_.png"),
+            image: megajumpparktickets,
             title: "MegajumpParkTickets.com",
           },
           // {
