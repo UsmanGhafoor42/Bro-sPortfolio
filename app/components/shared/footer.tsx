@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <Link
-              href="https://github.com"
+              href="https://github.com/Shaharyarkhan123"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-orange transition-all duration-200 group"
@@ -25,7 +25,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href="mailto:your.email@example.com"
+              href="mailto:eurodeveloper1999@gmail.com"
               className="text-foreground hover:text-orange transition-all duration-200 group"
               aria-label="Email"
             >
@@ -33,7 +33,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/muhammadshaharyarshafique/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-orange transition-all duration-200 group"
